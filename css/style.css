@@ -1,0 +1,51 @@
+
+
+.listaDeProdutos{
+  width: 1200px;
+  height: 100%;
+  background-color: rgb(232, 234, 234);
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.conteinerProdutos{
+    width:500px;
+    height: 530px;
+    padding: 10px;
+    background-color: rgb(202, 210, 210);  
+}
+
+.imagemDoProduto{
+    width: 95%;
+    height: 400px;
+    background-color: blue;
+    display: block;
+    margin: auto;
+}
+
+.infoProduto{
+  margin-left: 20px; 
+  margin-top: 10px;
+}
+
+.botaoComprar{
+    width: 100px;
+    height: 40px;
+    margin-left: 20px ;
+    border: NONE;
+    cursor: pointer;
+    margin-top: 10px;
+
+
+}
+
+.botaoComprar:hover{  
+    color: aliceblue;
+    background-color:green ;
+    box-shadow: 8px 5px 5px rgb(151, 149, 149);
+}
